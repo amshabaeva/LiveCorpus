@@ -1,0 +1,267 @@
+
+amsh@
+
+# sent_id = 89
+# text = ааа...
+1	ааа	ааа	INTJ	_	_	_	_
+2	.	.	PUNCT	_	_	_	_	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	_	_	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n\n
+
+amsh@
+
+# sent_id = 91
+# text = здорово
+1	здорово	здорово	ADV	_	Degree=Pos	_	_	_	SpacesAfter=\n\n
+
+amsh@
+
+# sent_id = 93
+# text = угу / аа..
+1	угу	угу	INTJ	_	_	_	_	_
+2	/	/	PUNCT	_	_	_	_	_	_
+3	аа	аа	INTJ	_		_	_	_
+4	.	.	PUNCT	_	_	_	_	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n\n
+
+amsh@
+
+# sent_id = 95
+# text = не знаю, расскажите, пожалуйста, например, про какую-нибудь свою любимую книгу ну или там про недавно прочитанную книгу что-нибудь / такое запомнившееся
+1	не	не	PART	_	_	_	_	_	_
+2	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	_	_	_	_
+4	расскажите	рассказать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	_	_	_	_
+6	пожалуйста	пожалуйста	ADV	_	Degree=Pos	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	_	_	_	_
+8	например	например	ADV	_	Degree=Pos	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	_	_	_	_
+10	про	про	ADP	_	_	_	_	_	_
+11	какую-нибудь	какой-нибудь	DET	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
+12	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
+13	любимую	любимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
+14	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
+15	ну	ну	PART	_	_	_	_	_	_
+16	или	или	CCONJ	_	_	_	_	_	_
+17	там	там	ADV	_	Degree=Pos	_	_	_	_
+18	про	про	ADP	_	_	_	_	_	_
+19	недавно	недавно	ADV	_	Degree=Pos	_	_	_	_
+20	прочитанную	прочитать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	_	_	_	_
+21	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
+22	что-нибудь	что-нибудь	PRON	_	Case=Acc	_	_	_	_
+23	/	/	PUNCT	_	_	_	_	_	_
+24	такое	такой	DET	_	Case=Acc|Gender=Neut|Number=Sing	_	_	_	_
+25	запомнившееся	запомниться	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	_	_	_	SpacesAfter=\n\n
+
+oms@
+
+# sent_id = 97
+# text = ну / наверное / странно для моего возраста, но мне очень нравится / эээ сколько там, семь книг / из серии Гарри Поттера.
+1	ну	ну	PART	_	_	_	_	_	_
+2	/	/	PUNCT	_	_	_	_	_	_
+3	наверное	наверное	ADV	_	Degree=Pos	_	_	_	_
+4	/	/	PUNCT	_	_	_	_	_	_
+5	странно	странно	ADV	_	_	_	Degree=Pos	_
+6	для	для	ADP	_	_	_	_	_	_
+7	моего	мой	DET	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+8	возраста	возраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	_	_	_	_
+10	но	но	CCONJ	_	_	_	_	_	_
+11	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	_	_	_	_
+12	очень	очень	ADV	_	Degree=Pos	_	_	_	_
+13	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	_	_	_	_
+14	/	/	PUNCT	_	_	_	_	_	_
+15	эээ	эээ	INTJ	_	_	_	_	_	_
+16	сколько	сколько	ADV	_	Degree=Pos	_	_	_	_
+17	там	там	ADV	_	Degree=Pos	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	_	_	_	_
+19	семь	семь	NUM	_	Case=Nom	_	_	_	_
+20	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
+21	/	/	PUNCT	_	_	_	_	_	_
+22	из	из	ADP	_	_	_	_	_	_
+23	серии	серия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+24	Гарри	Гарри	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+25	Поттера	Поттер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n\n
+
+oms@
+
+# sent_id = 99
+# text = Я очень люблю, я начинала их читать, когда моя старшая дочь была маленькая.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	_	_	_	_
+2	очень	очень	ADV	_	Degree=Pos	_	_	_	_
+3	люблю	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	_	_	_	_
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	_	_	_	_
+6	начинала	начинать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	_
+7	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	_	_	_	_
+8	читать	читать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	_	_	_	_
+10	когда	когда	SCONJ	_	_	_	_	_	_
+11	моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+12	старшая	старший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
+13	дочь	дочь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+14	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	_
+15	маленькая	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n\n
+
+oms@
+
+# sent_id = 101
+# text = Теперь у меня уже в..
+1	Теперь	теперь	ADV	_	Degree=Pos	_	_	_	_
+2	у	у	ADP	_	_	_	_	_	_
+3	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	_	_	_	_
+4	уже	уже	ADV	_	Degree=Pos	_	_	_	_
+5	в	взрослый	ADJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|	_	_	_	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	_	_	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n\n
+
+oms@
+
+# sent_id = 103
+# text = старшая дочь большая, подрастает маленькая, другая дочка маленькая, а я всё равно как-то возвращаюсь и перечитываю эти книги.
+1	старшая	старший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
+2	дочь	дочь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+3	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	_	_	_	_
+5	подрастает	подрастать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	_
+6	маленькая	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	_	_	_	_
+8	другая	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
+9	дочка	дочка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+10	маленькая	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	_	_	_	_
+12	а	а	CCONJ	_	_	_	_	_	_
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	_	_	_	_
+14	всё	весь	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+15	равно	равно	ADV	_	Degree=Pos	_	_	_	_
+16	как-то	как-то	ADV	_	Degree=Pos	_	_	_	_
+17	возвращаюсь	возвращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	_	_	_	_
+18	и	и	CCONJ	_	_	_	_	_	_
+19	перечитываю	перечитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	_
+20	эти	этот	DET	_	Case=Acc|Number=Plur	_	_	_	_
+21	книги	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	_	_	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n\n
+
+oms@
+
+# sent_id = 105
+# text = И вот / наверное
+1	И	и	CCONJ	_	_	_	_	_	_
+2	вот	вот	PART	_	_	_	_	_	_
+3	/	/	PUNCT	_	_	_	_	_	_
+4	наверное	наверное	ADV	_	Degree=Pos	_	_	_	SpacesAfter=\n\n
+
+oms@
+
+# sent_id = 107
+# text = она.
+1	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	_	_	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n\n
+
+oms@
+
+# sent_id = 109
+# text = Хотя есть и другая литература, но опять же не сказать, она какого-то такого, подросткового плана.
+1	Хотя	хотя	SCONJ	_	_	_	_	_	_
+2	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	_
+3	и	и	CCONJ	_	_	_	_	_	_
+4	другая	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
+5	литература	литература	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	но	но	CCONJ	_	_	_	_	_	_
+8	опять	опять	ADV	_	Degree=Pos	_	_	_	_
+9	же	же	PART	_	_	_	_	_	_
+10	не	не	PART	_	_	_	_	_	_
+11	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	_	_	_	_
+13	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	_	_	_	_
+14	какого-то	какой-то	DET	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+15	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	_	_	_	_
+17	подросткового	подростковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	_
+18	плана	план	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n\n
+
+oms@
+
+# sent_id = 111
+# text = Мне очень нравится аа современная, по-моему, норвежская писательница.
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	_	_	_	_
+2	очень	очень	ADV	_	Degree=Pos	_	_	_	_
+3	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	_	_	_	_
+4	аа	аа	INTJ	_	_	_	_	_
+5	современная	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	по-моему	по-моему	ADV	_	Degree=Pos	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	_	_	_	_
+9	норвежская	норвежский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
+10	писательница	писательница	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n\n
+
+oms@
+
+# sent_id = 113
+# text = Её называют часто / мммэ молодой Астрид Линдгрен, это Мария Парр.
+1	Её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	_	_	_	_
+2	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	_
+3	часто	часто	ADV	_	Degree=Pos	_	_	_	_
+4	/	/	PUNCT	_	_	_	_	_	_
+5	мммэ	мммэ	INTJ	_	_	_	_	_	_
+6	молодой	молодой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	_	_	_	_
+7	Астрид	Астрид	PROPN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	_	_	_	_
+8	Линдгрен	Линдгрен	PROPN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	_	_	_	_
+10	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+11	Мария	Мария	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+12	Парр	Парр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n\n
+
+oms@
+
+# sent_id = 115
+# text = И у неё есть две книжки: "Вафельное сердце" иии "Тоня Глиммердал".
+1	И	и	CCONJ	_	_	_	_	_	_
+2	у	у	ADP	_	_	_	_	_	_
+3	неё	она	PRON	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+4	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	_
+5	две	два	NUM	_	Case=Nom|Gender=Fem	_	_	_	_
+6	книжки	книжка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	_	_	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	_	_	_	_
+8	"	"	PUNCT	_	_	_	_	_	SpaceAfter=No
+9	Вафельное	Вафельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
+10	сердце	сердце	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	_	_	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	_	_	_	_
+12	иии	иии	INTJ	_	_	_	_	_
+13	"	"	PUNCT	_	_	_	_	_	SpaceAfter=No
+14	Тоня	Тоня	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No	_	_	_	_
+15	Глиммердал	Глиммердал	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	_	_	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	_	_	_	SpacesAfter=\n\n
+
+oms@
+
+# sent_id = 117
+# text = Вот я тоже с большим удовольствием их могу перечитывать, мне кажется, / неограниченное количество раз
+1	Вот	вот	PART	_	_	_	_	_	_
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	_	_	_	_
+3	тоже	тоже	ADV	_	_	_	_	_	_
+4	с	с	ADP	_	_	_	_	_	_
+5	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
+6	удовольствием	удовольствие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	_	_	_	_
+7	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	_	_	_	_
+8	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	_
+9	перечитывать	перечитывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	_	_	_	_
+11	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	_	_	_	_
+12	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	_	_	_	_
+14	/	/	PUNCT	_	_	_	_	_	_
+15	неограниченное	неограниченный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	_
+16	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+17	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	_	_	_	SpacesAfter=\n\n
+
+# time_end = 6:27
+
